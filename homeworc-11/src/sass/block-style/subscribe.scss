@@ -1,0 +1,115 @@
+/* SUBSCRIBE */
+
+.subscribe {
+    padding: 100px 0;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(59, 67, 76, 0.8)),
+        color-stop(8%, rgba(59, 67, 76, 0.8)),
+        color-stop(28%, rgba(59, 67, 76, 0.8)),
+        to(rgba(59, 67, 76, 0.8))
+      ),
+      url("../img/subscribe/s3-bg.jpg") no-repeat center;
+    background: -o-linear-gradient(
+        left,
+        rgba(59, 67, 76, 0.8) 0%,
+        rgba(59, 67, 76, 0.8) 8%,
+        rgba(59, 67, 76, 0.8) 28%,
+        rgba(59, 67, 76, 0.8) 100%
+      ),
+      url("../img/subscribe/s3-bg.jpg") no-repeat center;
+    background: linear-gradient(
+        90deg,
+        rgba(59, 67, 76, 0.8) 0%,
+        rgba(59, 67, 76, 0.8) 8%,
+        rgba(59, 67, 76, 0.8) 28%,
+        rgba(59, 67, 76, 0.8) 100%
+      ),
+      url("../img/subscribe/s3-bg.jpg") no-repeat center;
+    background-size: cover;
+  }
+  
+  .form-subscribe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 862px;
+  }
+  
+  .form-subscribe input {
+    padding-left: 24px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    font-weight: 300;
+    color: rgb(59, 67, 76);
+    line-height: 2.5;
+    border: 2px solid #fff;
+    -webkit-transition: 0.3s linear all;
+    -o-transition: 0.3s linear all;
+    transition: 0.3s linear all;
+  }
+  
+  .form-subscribe input:focus:valid {
+    border-color: green;
+  }
+  .form-subscribe input:focus:invalid {
+    border-color: red;
+  }
+  
+  .form-subscribe input::-webkit-input-placeholder {
+    font-weight: 300;
+    color: rgb(59, 67, 76);
+    line-height: 2.5;
+  }
+  
+  .form-subscribe input::-moz-placeholder {
+    font-weight: 300;
+    color: rgb(59, 67, 76);
+    line-height: 2.5;
+  }
+  
+  .form-subscribe input:-ms-input-placeholder {
+    font-weight: 300;
+    color: rgb(59, 67, 76);
+    line-height: 2.5;
+  }
+  
+  .form-subscribe input::-ms-input-placeholder {
+    font-weight: 300;
+    color: rgb(59, 67, 76);
+    line-height: 2.5;
+  }
+  
+  .form-subscribe input::placeholder {
+    font-weight: 300;
+    color: rgb(59, 67, 76);
+    line-height: 2.5;
+  }
+  
+  .btn-subscribe {
+    margin-left: 30px;
+    background-color: rgb(247, 96, 14);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    max-width: 270px;
+    color: rgb(255, 255, 255);
+    line-height: 2.5;
+    text-transform: uppercase;
+    -webkit-transition: 0.3s linear all;
+    -o-transition: 0.3s linear all;
+    transition: 0.3s linear all;
+  }
+  
+  .btn-subscribe:focus,
+  .btn-subscribe:hover {
+    opacity: 0.8;
+  }
+  

@@ -1,0 +1,93 @@
+/* ========== Services =========== */
+
+.services {
+    padding-top: 85px;
+    padding-bottom: 98px;
+    background-color: #fff;
+  }
+  
+  .list-services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 -15px;
+  }
+  
+  .list-services * {
+    -webkit-transition: 0.3s linear all;
+    -o-transition: 0.3s linear all;
+    transition: 0.3s linear all;
+  }
+  
+  .list-services__item {
+    width: 25%;
+    max-width: 292px;
+    min-width: 280px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .list-services__item:focus,
+  .list-services__item:hover {
+    -webkit-box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.75);
+  }
+  .list-services__item:hover .circle {
+    background-color: #f7600e;
+    border-color: #f7600e;
+  }
+  
+  .list-services__item:hover .circle svg {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .list-services__item:hover .circle svg path {
+    fill: #fff;
+  }
+  
+  .list-services__item-circle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto 18px;
+    border: 1px solid rgba(59, 67, 76, 0.3);
+    border-radius: 50%;
+    width: 155px;
+    height: 155px;
+  }
+  
+  .list-services__item-circle svg {
+    max-width: 35%;
+    height: auto;
+  }
+  
+  .list-services__item-circle svg path {
+    fill: #f7600e;
+  }
+  
+  .list-services__item-title {
+    margin-bottom: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(59, 67, 76);
+    line-height: 2.5;
+  }
+  
+  .list-services__item-text {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  
